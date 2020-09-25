@@ -1,0 +1,17 @@
+{
+    "template": "https://gitlab.com/frkl/frkl.python-project.git",
+    "commit": "aadd7525b98634dc19d2c321d71c6448e061b689",
+    "context": {
+        "cookiecutter": {
+            "full_name": "Markus Binsteiner",
+            "email": "markus@frkl.io",
+            "project_name": "tingex",
+            "exe_name": "",
+            "project_slug": "tingex",
+            "project_main_module": "tingex",
+            "project_short_description": "Generic indexes, built on-top of 'tings'.",
+            "_template": "https://gitlab.com/frkl/frkl.python-project.git"
+        }
+    },
+    "directory": null
+}
