@@ -22,4 +22,5 @@ nav:
 plugins:
 - search
 - macros:
-   module_name: ci.docs
+   modules:
+     - ci.docs
