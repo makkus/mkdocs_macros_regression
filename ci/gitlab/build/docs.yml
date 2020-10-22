@@ -4,7 +4,6 @@
   before_script:
     - "pip install --extra-index-url https://pkgs.frkl.io/frkl/dev --extra-index-url https://pkgs.frkl.dev/pypi .[docs,all]"
   script:
-    - pydoc-markdown
     - mkdocs build --site-dir public
   artifacts:
     paths:
