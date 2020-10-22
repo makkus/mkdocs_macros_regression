@@ -19,15 +19,15 @@ stages:
   - build_windows
   - release
 
-include:
-  - local: '/ci/gitlab/test/tox.yml'
-  - local: '/ci/gitlab/test/mypy.yml'
-  - local: '/ci/gitlab/test/flake8.yml'
-  - local: '/ci/gitlab/test/coverage.yml'
-  - local: '/ci/gitlab/test/safety.yml'
-  - local: '/ci/gitlab/test/commitlint.yml'
-  - local: '/ci/gitlab/build/docs.yml'
-  - local: '/ci/gitlab/build/pkg.yml'
+#include:
+#  - local: '/ci/gitlab/test/tox.yml'
+#  - local: '/ci/gitlab/test/mypy.yml'
+#  - local: '/ci/gitlab/test/flake8.yml'
+#  - local: '/ci/gitlab/test/coverage.yml'
+#  - local: '/ci/gitlab/test/safety.yml'
+#  - local: '/ci/gitlab/test/commitlint.yml'
+#  - local: '/ci/gitlab/build/docs.yml'
+#  - local: '/ci/gitlab/build/pkg.yml'
 
 
 pages:
